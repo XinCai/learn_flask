@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development environment
+.env
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Static files
+/static/
+
+# Compiled templates
+/templates/*.pyc
+
+# Virtual environment
+venv/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories
+lib/
+lib64/
