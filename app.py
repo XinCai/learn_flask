@@ -18,15 +18,15 @@ collection_id = client.create_collection(
 with open('dunder_mifflin.txt', 'w') as f:
     f.write('There were 55 paper clips shipped, '
             '22 to Scranton and 33 to Filmer.')
-    
+
 with open('initech.txt', 'w') as f:
     f.write('David Brent did not sign any contract with Initech.')
-    
+
 # Upload documents
 # Many file types are supported: text/image/audio documents and archives
 with open('dunder_mifflin.txt', 'rb') as f:
     dunder_mifflin = client.upload('Dunder Mifflin.txt', f)
-    
+
 with open('initech.txt', 'rb') as f:
     initech = client.upload('IniTech.txt', f)
 
