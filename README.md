@@ -24,8 +24,8 @@ A brief description of your Flask project.
 from h2ogpte import H2OGPTE
 
 client = H2OGPTE(
-    address='https://h2ogpte.internal-genai.dedicated.h2o.ai',
-    api_key='sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+    address='https://h2ogpte.genai.h2o.ai',
+    api_key='sk-n0XL8rWyslMqkOlIDFYlMBG88pCm8qvgJSeQY7riFJNNR0B7',
 )
 
 # Create a new collection
