@@ -15,7 +15,7 @@ with client.connect(chat_session_id) as session:
         "Can you hallucinate?",
     ).content
     print(answer)
-    
+
 
 # Create Collection
 collection_id = client.create_collection(
