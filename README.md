@@ -80,6 +80,11 @@ for doc in documents:
     print(summary.content)
 ```
 
+update package requirments file via command
+```
+pip freeze > requirements.txt 
+```
+
 
 ## Usage
 
