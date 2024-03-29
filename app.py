@@ -63,7 +63,7 @@ def hello():
     return render_template('home.html', jobs=objects, answer=answer_json)
 
 
-@app.route('/jobs')
+@app.route('/api/jobs')
 def get_jobs():
     return jsonify(objects)
 
