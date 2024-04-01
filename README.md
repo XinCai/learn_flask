@@ -12,6 +12,7 @@ A brief description of your Flask project.
   - [Features](#features)
   - [Contributing](#contributing)
   - [License](#license)
+  - [==================================](#)
 
 ## Installation
 
@@ -105,3 +106,33 @@ Contributions are welcome! Please follow the guidelines in [CONTRIBUTING.md](CON
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+
+
+## ==================================
+
+
+Create a sample database, and insert sample data 
+
+```
+-- Create a new database
+CREATE DATABASE SampleDB;
+
+-- Use the new database
+USE SampleDB;
+
+-- Create a new table
+CREATE TABLE Employees (
+    ID INT PRIMARY KEY,
+    Name NVARCHAR(50),
+    Position NVARCHAR(50),
+    Department NVARCHAR(50)
+);
+
+-- Insert some sample data
+INSERT INTO Employees (ID, Name, Position, Department) VALUES
+(1, 'John Doe', 'Manager', 'Sales'),
+(2, 'Jane Smith', 'Sales Representative', 'Sales'),
+(3, 'Mike Johnson', 'Developer', 'IT'),
+(4, 'Alice Williams', 'System Administrator', 'IT');
+```
